@@ -8,6 +8,7 @@ function App() {
     <>
     <NavBar />
     <Routes>
+      <Route path="/" element={<StarshipPage/>}/>
       <Route path='/starships' element={<StarshipPage/>}/>
     </Routes>
     </>
